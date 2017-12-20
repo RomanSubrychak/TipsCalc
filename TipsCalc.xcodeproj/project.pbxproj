@@ -54,14 +54,38 @@
 		9461759C1FE715EE0051E7C3 /* TipsCalc */ = {
 			isa = PBXGroup;
 			children = (
+				946175B11FE716A00051E7C3 /* Model */,
+				946175B01FE716940051E7C3 /* View */,
+				946175AF1FE716820051E7C3 /* Controller */,
 				9461759D1FE715EE0051E7C3 /* AppDelegate.swift */,
-				9461759F1FE715EE0051E7C3 /* ViewController.swift */,
 				946175A11FE715EE0051E7C3 /* Main.storyboard */,
 				946175A41FE715EE0051E7C3 /* Assets.xcassets */,
 				946175A61FE715EE0051E7C3 /* LaunchScreen.storyboard */,
 				946175A91FE715EE0051E7C3 /* Info.plist */,
 			);
 			path = TipsCalc;
+			sourceTree = "<group>";
+		};
+		946175AF1FE716820051E7C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9461759F1FE715EE0051E7C3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		946175B01FE716940051E7C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		946175B11FE716A00051E7C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
